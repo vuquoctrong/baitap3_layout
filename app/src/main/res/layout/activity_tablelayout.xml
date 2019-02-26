@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -26,13 +25,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Color2"
-                    android:textColor="#ff0" />
+                    android:textColor="#ff0"/>
                 <Button
                     android:id="@+id/btn_tbblue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Color3"
-                    android:textColor="#0b4ce4" />
+                    android:textColor="#0b4ce4"/>
             </TableRow>
         </TableLayout>
     </LinearLayout>
@@ -45,12 +44,12 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true" />
+            android:layout_alignParentRight="true"/>
         <TextView
             android:id="@+id/tv_color"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/btn_clear"
-            android:background="@color/colorPrimaryDark" />
+            android:background="@color/colorPrimaryDark"/>
     </RelativeLayout>
 </LinearLayout>
